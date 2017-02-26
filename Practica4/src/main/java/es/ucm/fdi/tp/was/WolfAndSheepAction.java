@@ -1,7 +1,6 @@
 package es.ucm.fdi.tp.was;
 
 import es.ucm.fdi.tp.base.model.GameAction;
-import es.ucm.fdi.tp.base.model.GameState;
 
 @SuppressWarnings("serial")
 public class WolfAndSheepAction implements GameAction<WolfAndSheepState, WolfAndSheepAction> {
@@ -24,11 +23,9 @@ public class WolfAndSheepAction implements GameAction<WolfAndSheepState, WolfAnd
 	}
 
 	@Override
-	public GameState applyTo(GameState state) {
+	public WolfAndSheepState applyTo(WolfAndSheepState state) {
 		
 		return null;
 	}
-	
-	public stateWol
 
 }
